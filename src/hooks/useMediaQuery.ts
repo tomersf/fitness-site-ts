@@ -1,6 +1,7 @@
+import { MediaQuery } from "@/shared/types";
 import { useState, useEffect } from "react";
 
-const useMediaQuery = (query: string) => {
+const useMediaQuery = (query: MediaQuery): boolean => {
   const [matches, setMatches] = useState(false);
 
   useEffect(() => {

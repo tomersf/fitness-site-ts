@@ -4,3 +4,7 @@ export enum SelectedPage {
   OurClasses = "ourclasses",
   ContactUs = "contactus",
 }
+
+export enum MediaQuery {
+  AboveMediumScreen = "(min-width: 1060px)",
+}
