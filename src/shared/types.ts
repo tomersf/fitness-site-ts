@@ -8,3 +8,9 @@ export enum SelectedPage {
 export enum MediaQuery {
   AboveMediumScreen = "(min-width: 1060px)",
 }
+
+export interface BenefitType {
+  icon: JSX.Element;
+  title: string;
+  description: string;
+}
